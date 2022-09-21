@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+    <link rel="stylesheet" href="signup.css">
+    <script src="signup.js"></script>
+  <style>
+        body {
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png) no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        form {
+            border: 7px solid white;
+            width: 395px;
+            text-align: center;
+            margin: auto;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+<form action="#">
+  <fieldset>
+    <label for="user">Username:</label>
+    <input type="text" name="user" id="user">
+  </fieldset>
+  <fieldset>
+    <label for="pwd">Password:</label>
+    <input type="password" name="pwd" id="pwd">
+  </fieldset>
+  <fieldset>
+    <label for="rpwd">Re-enter Password:</label>
+    <input type="password" name="rpwd" id="rpwd">
+  </fieldset>
+  <fieldset>
+    <label for="email">Email Address:</label>
+    <input type="email" name="email" id="email">
+  </fieldset>
+  <fieldset>
+    <fieldset>
+    <label for="sdt">Phone Number:</label>
+    <input type="email" name="sdt" id="sdt">
+  </fieldset>
+    <button type="button" onclick="checkInput()">Register</button>
+    <input type="reset" value="Retype">
+  </fieldset>
+</form>
+</body>
+</html>

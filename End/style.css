@@ -1,0 +1,137 @@
+section{
+    margin:-1%;
+    padding:20px;
+}
+html,
+body {
+  margin: 0;
+}
+.w {
+  overflow: hidden;
+}
+section {
+  margin: -1%;
+  padding: 20px;
+}
+section div {
+  background: #000;
+  float: left;
+  height: 24vw;
+  margin: 1%;
+  width: 23%;
+}
+.home-menu{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png") no-repeat center center;
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+.top a{
+    text-decoration: none;
+    margin-top: 13px;
+    margin-right: -50px;
+    font-size: 20px;
+}
+.top .name{
+    font-size: 30px;
+    padding-right: 200px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: black;
+}
+.welcome h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    color: chocolate;
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.top .menu-bar:hover{
+    color:black;
+}
+button{
+    padding: 10px;
+    background-color: white;
+
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(144, 194, 53, 0.555);
+}
+.mid h1{
+    text-align: center;
+}
+.mid .best .item{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.mid .sale .item2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+.mid .bs{
+    border: 2px solid white ;
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    height: 370px;
+    width: 350px;
+    text-align: center;
+
+}
+.Cart{
+    visibility: hidden;
+    margin-top: -2000px;
+    position:fixed;
+    border: 1px solid grey;
+    margin-left: 113px;
+    height: 460px;
+    width: 1000px;
+    background-color: #ddd;
+    padding: 12px 0px 12px 20px;
+    overflow-y:scroll ;    
+    opacity: 0.9;
+}
+.cart{
+    width: 50%;
+    text-align: center;
+    margin-left: 250px;
+}
+.cart thead th{
+    padding: 0px 30px 0px 30px;
+}
+button{
+    padding: 10px;
+    background-color: white;
+    border: 1px rgba(144, 194, 53, 0.555) solid;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(144, 194, 53, 0.555);
+}
+.bton{
+    display: flex;
+    justify-content: space-evenly;
+}
+.show{
+    visibility: visible;
+}

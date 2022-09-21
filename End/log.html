@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Register</title>
+    <link rel="stylesheet" href="log.css">
+    <style>
+        body {
+            background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png) no-repeat center center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        form {
+            border: 3px solid white;
+            width: 360px;
+            text-align: center;
+            margin: auto;
+            margin-top: 200px;
+        }
+    </style>
+    <script src="log.js"></script>
+</head>
+<body>
+
+    <form>
+        Username:<br>
+        <input type="text" id="username" required="">
+        <br>
+        Password:<br>
+        <input type="password" id = "pwd" required="">
+        <div class="input-form">
+            <p>Haven't got an account? <a href="signup.html">Register</a></p>
+        </div>
+        <button onclick="checkInput()" type="button">
+            Login</button>
+    </form>
+    
+</body>
+
+</html>
